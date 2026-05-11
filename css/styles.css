@@ -40,9 +40,15 @@ p {
     color: white;
     text-align: center;
 }
-.gallery {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+@media screen and (width >=500px){
+  .gallery {
+              display:grid;
+              grid-template-columns: 1fr 1fr;
+               gap:2rem
+            }
+}
+@media screen and (width >=800px){
+    .gallery {display:grid;
+              grid-template-columns: 1fr 1fr 1fr 1fr}
 
 }
