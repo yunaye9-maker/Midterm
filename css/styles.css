@@ -47,7 +47,7 @@ div {
 div img {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 100%;
 }
 @media screen and (width >=100px){
   .gallery {
