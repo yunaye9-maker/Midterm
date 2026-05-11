@@ -49,14 +49,14 @@ div img {
   margin: auto;
   width: 50%;
 }
-@media screen and (width >=500px){
+@media screen and (width >=100px){
   .gallery {
               display:grid;
               grid-template-columns: 1fr 1fr;
                gap:2rem
             }
 }
-@media screen and (width >=600px){
+@media screen and (width >=100px){
     .gallery {display:grid;
               grid-template-columns: 1fr 1fr 1fr 1fr}
 
