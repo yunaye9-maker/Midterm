@@ -31,6 +31,16 @@ main {
 h1 {
     color: #BFB48F;
     text-align: center;
+
+}
+h3, h4 {
+    text-align: center;
+    
+}
+div img {
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 p {
     color: white;
@@ -39,4 +49,18 @@ p {
 div {
   background-color: #988F7A;
   border-radius: 20px;
+}
+@media screen and (width >=500px){
+  .cardlist {
+              display:grid;
+              grid-template-columns: 1fr 1fr;
+               gap:2rem
+            }
+}
+@media screen and (width >=800px){
+    
+
+    .cardlist {display:grid;
+              grid-template-columns: 1fr 1fr 1fr 1fr}
+
 }
